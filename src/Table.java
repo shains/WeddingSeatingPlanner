@@ -16,5 +16,19 @@ public class Table {
      */
     private int tableSize;
 
+    public List getGuestsAtTable() {
+        return guestsAtTable;
+    }
 
+    public void setGuestsAtTable(List guestsAtTable) {
+        this.guestsAtTable = guestsAtTable;
+    }
+
+    public int getTableSize() {
+        return tableSize;
+    }
+
+    public void setTableSize(int tableSize) {
+        this.tableSize = tableSize;
+    }
 }
